@@ -19,17 +19,17 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
   padding: 2.5rem;
   background-color: hsl(0, 0%, 12%);
   margin: 0 1rem;
   width: 300px;
+  height: 500px;
   border-radius: 12px;
 }
 .profile img {
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
 }
 .user {
   text-align: center;
@@ -49,6 +49,7 @@ body {
 p {
   margin-top: 2rem;
   font-size: 0.85rem;
+
   color: hsl(0, 0%, 100%);
 }
 .links {
@@ -59,14 +60,18 @@ p {
 .links button {
   margin-top: 1rem;
   width: 17rem;
-  height: 2.2rem;
+  height: 2.5rem;
   border: none;
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   border-radius: 6px;
+  font-weight: 600;
 }
 
 .link button:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.link button:visited {
   background-color: hsl(75, 94%, 57%);
 }
 

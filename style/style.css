@@ -68,8 +68,9 @@ p {
   font-weight: 600;
 }
 
-.link button:hover {
+button:hover {
   background-color: hsl(75, 94%, 57%);
+  color: black;
 }
 .link button:visited {
   background-color: hsl(75, 94%, 57%);
